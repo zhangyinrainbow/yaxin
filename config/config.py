@@ -31,4 +31,4 @@ logging.basicConfig(level=logging.DEBUG,  # log level
 cookies = {"crm_JSESSIONID": "aeeb01ad-502d-4138-87a2-e16118c9e5ba"}
 
 if __name__ == '__main__':
-    logging.info("hello")
+    logging.info("hello1")
