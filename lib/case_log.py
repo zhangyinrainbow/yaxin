@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from config.config import *
 import json
 def log_case_info(case_name,url,data,expect_res,res_text):

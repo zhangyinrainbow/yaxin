@@ -19,7 +19,7 @@ class BaseCase(unittest.TestCase):
         url = case_data.get('url')
         expect_res = case_data.get('expect_res')
         data = case_data.get('data')
-        res = requests.post(url=url, cookies=cookies,  data=json.loads(data))
+        res = requests.post(url=url,  data=json.loads(data))
         log_case_info(case_name, url, data, expect_res, res.text)
         print(res.text)
         self.assertIn(expect_res, res.text)
