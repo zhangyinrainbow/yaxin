@@ -6,7 +6,7 @@ prj_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #os.path.abspath(__file__)可以获得当前模块的绝对路径
 #os.path.dirname可以获取到除文件名以外的路径
 data_path = os.path.join(prj_path, 'data')
-test_path = os.path.join(prj_path, 'test')
+test_path = os.path.join(prj_path, 'case')
 data_path = os.path.join(prj_path, 'data')
 data_file = os.path.join(data_path,  'test_user_data.xlsx')
 report_file = os.path.join(prj_path, 'report', 'report.html')
